@@ -1,0 +1,20 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/sdb2
+UUID=b00f1a15-b2f6-414d-8f2e-3da56756f036	/         	ext4      	rw,relatime	0 1
+
+# /dev/sdb1
+UUID=AE41-6CE6      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
+
+# /dev/sdb3
+UUID=cef6402d-a3c4-456e-89c0-9da1f48e47d1	/home     	ext4      	rw,relatime	0 2
+
+# Mounting Partitions
+UUID=5CC658CFC658AB52	/mnt/fast_storage	ntfs	defaults	0	0
+UUID=17e7dc3f-efd5-4b90-84fe-f50219900697	/mnt/ext4_fast	ext4	defaults	0	0
+UUID=A6F45101F450D4E1	/mnt/junk	ntfs	defaults	0	0
+UUID=E838CC9638CC64E2	/mnt/programming	ntfs	defaults	0	0
+UUID=62044A44044A1C03	/mnt/entertainment	ntfs	defaults	0	0
+
