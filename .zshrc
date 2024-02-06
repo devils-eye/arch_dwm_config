@@ -24,6 +24,7 @@ alias letscode="cd /mnt/programming/all_programming_files/ && ls"
 alias std="conda activate stable_diffusion && cd /mnt/ext4_fast/AI/stable-diffusion-webui/ && python launch.py"
 alias ss="cd $HOME/.local/bin/"
 alias jupyterlab="~/.local/bin/jpl"
+alias flush="rm -rf /mnt/ext4_fast/AI/stable-diffusion-webui/outputs/*"
 
 
 # Set list of themes to pick from when loading at random

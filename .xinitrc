@@ -8,5 +8,6 @@ xcompmgr &
 slstatus &
 xset s off -dpms &
 /home/ranjith/.local/bin/nl &
+ollama serve &
 
 exec dwm

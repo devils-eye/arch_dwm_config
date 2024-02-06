@@ -86,3 +86,10 @@ test.png
 .config/vlc
 .config/wal
 .config/yay
+.config/bleachbit/
+.dotnet/
+.gitconfig
+.gnupg/
+.password-store/
+dotnet-install.sh
+git-credential-manager/
