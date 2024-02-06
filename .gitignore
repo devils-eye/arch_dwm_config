@@ -93,3 +93,4 @@ test.png
 .password-store/
 dotnet-install.sh
 git-credential-manager/
+.electron-gyp/
