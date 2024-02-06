@@ -1,0 +1,12 @@
+#!/bin/sh
+
+wall=$(find /mnt/ext4_fast/Downloads/gaming_wallpaper/ -type f -name "*.jpg" -o -name "*.png" | shuf -n 1)
+
+# add background wallpaper
+xwallpaper --output DP-0 --maximize $wall --output HDMI-0 --maximize $wall --output DP-3 --maximize $wall
+
+# generate color scheme
+wal -c
+wal -i $wall
+
+xdotool key super+F5

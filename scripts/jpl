@@ -1,0 +1,4 @@
+#!/bin/bash
+conda activate learning 
+cd /mnt/programming/all_programming_files/
+BROWSER=chromium jupyter-lab
