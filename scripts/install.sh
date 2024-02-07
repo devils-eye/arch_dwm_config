@@ -5,7 +5,7 @@ update_packages(){
 }
 
 install_programs(){
-  sudo pacman -S git neovim vim zip wget libxft libxinerama zsh python-pywal xwallpaper xdotool xcompmgr opera make kitty
+  sudo pacman -S git neovim vim zip wget libxft libxinerama zsh python-pywal xwallpaper xdotool xcompmgr opera make kitty bpytop htop lsd
 }
 
 clone_repos(){
